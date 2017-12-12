@@ -1,0 +1,4 @@
+domain\DestinationRepository.class
+rest\Application.class
+domain\Destination.class
+rest\DestinationController.class
