@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pieterBogemans</groupId>
-  	<artifactId>DestinationService</artifactId>
+  	<artifactId>destinationservice</artifactId>
   	<version>0.0.1-SNAPSHOT</version>
   	<packaging>jar</packaging>
 
@@ -19,7 +19,7 @@
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <start-class>pieterbogemans</start-class>
-	      <docker.image.name>DestinationService</docker.image.name>
+	      <docker.image.name>destinationservice</docker.image.name>
         <docker.image.tag>latest</docker.image.tag>
     </properties>
     
