@@ -79,7 +79,7 @@
                            <goal>copy-resources</goal>
                        </goals>
                        <configuration>
-                           <outputDirectory>${basedir}/target/docker</outputDirectory>
+                           <outputDirectory>${basedir}/target/dockerfile</outputDirectory>
                            <resources>
                                <resource>
                                    <directory>src/main/docker</directory>
@@ -96,7 +96,7 @@
                <version>1.0.0</version>
                <configuration>
                    <imageName>${docker.image.name}:${docker.image.tag}</imageName>
-                   <dockerDirectory>${basedir}/target/docker</dockerDirectory>
+                   <dockerDirectory>${basedir}/target/dockerfile</dockerDirectory>
                    <resources>
                        <resource>
                            <targetPath>/</targetPath>
