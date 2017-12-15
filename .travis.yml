@@ -11,5 +11,5 @@ script:
 - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
 - mvn clean package docker:build
 - docker images
-- docker build -t pieterbogemans/destinationservice:latest .
+- docker build -t pieterbogemans/destinationservice:latest .\target\dockerfile
 - docker push pieterbogemans/destinationservice:latest
